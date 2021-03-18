@@ -12,7 +12,7 @@ spec:
     environmentGitOwner: todo
     gitKind: github
     gitName: github
-    gitServer: https://github.com
+    gitServer: https://gitlab.haas-478.pez.vmware.com
     provider: kubernetes
     registry: ghcr.io
   environments:
@@ -20,7 +20,7 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: "haas-478.pez.vmware.com"
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
