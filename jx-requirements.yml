@@ -12,7 +12,7 @@ spec:
     environmentGitOwner: todo
     gitKind: github
     gitName: github
-    gitServer: https://github.com/JeffreyWa/jx3.git
+    gitServer: https://github.com/
     provider: kubernetes
     registry: ghcr.io
   environments:
