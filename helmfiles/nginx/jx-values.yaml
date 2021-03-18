@@ -27,15 +27,17 @@ jxRequirements:
     environmentGitOwner: todo
     gitKind: github
     gitName: github
-    gitServer: https://github.com
+    gitServer: https://github.com/JeffreyWa/jx3.git
     provider: kubernetes
     registry: ghcr.io
   environments:
   - key: dev
+    owner: JeffreyWa
+    repository: jx3
   - key: staging
   - key: production
   ingress:
-    domain: change.me
+    domain: haas-478.pez.vmware.com
     externalDNS: false
     kind: ingress
     namespaceSubDomain: -nginx.
@@ -43,6 +45,8 @@ jxRequirements:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: jeffreywa
   repository: bucketrepo
   secretStorage: local
   vault: {}
